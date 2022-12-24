@@ -1,6 +1,10 @@
 game:GetService("StarterGui"):SetCore("SendNotification",{
-                Title = "Credits";
-                Text = "Modified By SpekzZ";
+                Title = "Credits 1";
+                Text = "Employee Link Made By Hamukatur";
+                Duration = 3.5;
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Credits 2";
+                Text = "Modified By SpekzZ ";
                 Duration = 3.5;
             })
 -- Gui to Lua
@@ -331,3 +335,4 @@ mine.MouseButton1Down:connect(function()
 		end
 		end
 		end
+end)
